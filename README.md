@@ -6,18 +6,7 @@ A comprehensive PowerShell toolkit for automating Cross-Forest Exchange migratio
 
 This toolkit splits the complex migration process into **6 numbered scripts** that must be executed in a specific order across **Source** and **Target** environments. Each script includes comprehensive HTML reporting with save dialog functionality.
 
-## Architecture
 
-\`\`\`
-┌─────────────────┐    Trust Relationship    ┌─────────────────┐
-│  SOURCE FOREST  │◄─────────────────────────►│  TARGET FOREST  │
-│                 │                           │                 │
-│ • Exchange Org  │                           │ • Exchange Org  │
-│ • MRS-Proxy     │                           │ • Migration     │
-│ • Source Users  │                           │   Endpoints     │
-│                 │                           │ • Target DBs    │
-└─────────────────┘                           └─────────────────┘
-\`\`\`
 
 ## Script Execution Order
 
